@@ -1,0 +1,73 @@
+.planet{
+    height: 60px;
+    width: 60px;
+    padding-left: 20px;
+}
+a:link,
+a:visited {
+  background-color: #236397;
+  color: #1ac05f;
+  padding: 15px 25px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+  font-size: 25px;
+}
+a:hover,
+a:active {
+  background-color:#1ac05f;
+  color: #236397;
+}
+body{
+    background-color: #1ac05f;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    
+}
+nav{
+    background-color: #236397;
+    justify-content: center;
+    padding:20px;
+}
+.links{
+    padding-left: 400px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    padding-left: 490px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+    color: white;
+}
+.copyright{
+    font-size: 20px;
+    color:black;
+    padding-left:600px;
+}
+.body{
+    margin:70px;
+}
+.gallery{
+    justify-content: space-between;
+    display: flex;
+}
+.hey{
+    width: 275px;
+    height: 183px;
+}
+.titre{
+    display: flex;
+    
+}
+.taarif{
+    display: flex;
+    
+}
+.lol{
+    height:340px;
+    padding-left: 15px;
+}

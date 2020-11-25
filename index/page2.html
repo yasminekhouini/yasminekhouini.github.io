@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulaire</title>
+</head>
+<body> <nav><div class="titre"><img src="erf.png" class="planet">
+    <h1>Save the planet</h1></div>
+    <div class="links">
+<a href="l'environnement.html">accueil</a>
+<a href="page 1.html">comment protéger</a>
+<a href="page2.html">formulaire</a>
+    </nav>
+    
+<section class="body">
+<h2>Mon premier formulaire HTML5</h2>
+            <fieldset> <legend>Vos coordonnées</legend>
+              <p>Nom*: <input required="required" placeholder="votre nom" name="nom"
+
+                  type="text"></p>
+              <p>Prénom*: <input required="required" placeholder="votre prénom"
+
+                  name="nom" type="text"></p>
+              <p>Date de naissance : <input required="required" value="jj/mm/aaaa"
+
+                  name="date" type="date"></p>
+              <p>Mail : <input required="required" placeholder="votre mail" name="nom"
+
+                  type="text"></p>
+              <p>Votre site : <input required="required" value="http://www." name="site"
+
+                  type="url"></p>
+              <p>Code : <input required="required" name="password" type="password"></p>
+              <p><input required="required" name="sexe" type="radio">Homme</p>
+              <p><input required="required" name="sexe" type="radio">Femme</p>
+              <select name="pays">
+                <optgroup label="Europe">
+                  <option value="">France</option>
+                  <option value="">Belgique</option>
+                  <option value="">Italie</option>
+                  <option value="">Allemagne</option>
+                </optgroup><optgroup label="Amérique">
+                  <option value="">USA</option>
+                  <option value="">Canada</option>
+                  <option value="">Argentine</option>
+                  <option value="">Méxique</option>
+                </optgroup><optgroup label="Autres">
+                  <option value="">Afrique</option>
+                  <option value="">Asie</option>
+                  <option value="">Océanie</option>
+                  <option value="">Australie</option>
+                </optgroup>
+              </select>
+            </fieldset>
+            <fieldset><legend>Vos goûts</legend>
+              <p><input required="required" name="gouts" type="checkbox">Pommes</p>
+              <p><input required="required" name="gouts" type="checkbox">Poires</p>
+              <p><input required="required" name="gouts" type="checkbox">Scoubidous</p>
+              <textarea required="required" placeholder="   Décrivez vos goûts en détail"
+
+name="text"></textarea> </fieldset>
+            <fieldset><legend>Envoyez nous votre photo</legend> <input required="required"
+
+                name="fichier" type="file">
+              <p><input name="effacer" type="reset"><input name="envoyer" type="submit"></p>
+        
+      
+      </fieldset></section>
+    </body>
+    </html>
